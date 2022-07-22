@@ -2,7 +2,7 @@ package Chapter05;
 
 import java.util.*;
 
-public class ArrayEx20 {
+public class MultiArrEx1 {
     public static void main(String[] args) {
         final int SIZE = 10;
         int x = 0, y = 0;
@@ -26,7 +26,7 @@ public class ArrayEx20 {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.printf("좌표를 입력하세요. (종료는 00) > ");
+            System.out.print("좌표를 입력하세요. (종료는 00) > ");
             String input = scanner.nextLine(); // 화면에 입력받은 내용을 input에 저장
 
             if (input.length() == 2) { // 두 글자를 입력한 경우
